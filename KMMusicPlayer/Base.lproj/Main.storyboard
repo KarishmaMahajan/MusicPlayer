@@ -27,9 +27,6 @@
                                     <constraint firstAttribute="width" constant="330" id="BPt-X6-iQ3"/>
                                 </constraints>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="soB-wI-MjR">
-                                <rect key="frame" x="58" y="440" width="484" height="31"/>
-                            </slider>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akH-MQ-2XG">
                                 <rect key="frame" x="250" y="520" width="100" height="50"/>
                                 <subviews>
@@ -57,6 +54,9 @@
                                     <constraint firstItem="65w-7q-RJI" firstAttribute="height" secondItem="s0j-v6-ySN" secondAttribute="height" id="ag4-1I-7ZA"/>
                                 </constraints>
                             </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="soB-wI-MjR">
+                                <rect key="frame" x="50" y="447" width="484" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
